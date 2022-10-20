@@ -1,0 +1,1 @@
+ALTER TABLE `etudiant` ADD `promotion` VARCHAR(20) NOT NULL AFTER `tele_urgence`, ADD `niveau` VARCHAR(20) NOT NULL AFTER `promotion`, ADD `etat` VARCHAR(20) NOT NULL AFTER `niveau`, ADD `date d'inscription` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `etat`;

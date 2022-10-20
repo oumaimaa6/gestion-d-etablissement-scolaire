@@ -1,0 +1,28 @@
+
+
+.btn1{
+    width: fit-content;
+    margin-bottom: 20px;
+    background-color: blue;
+    padding: 5px 20px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius: 6px;
+    text-decoration: 0;
+    
+}
+.danger{
+    width: fit-content;
+    margin-bottom: 20px;
+    background-color: red;
+    padding: 5px 20px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius: 6px;
+    text-decoration: 0;
+}
+

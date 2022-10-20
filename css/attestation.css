@@ -1,0 +1,77 @@
+.forme {
+    background-color: #f6f8f8;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin-left: 200px;
+    margin-right: 300px;
+    margin-top: 100px;
+     
+}
+.forme form{
+    display: flex;
+      width: 350px;
+      flex-direction: column;
+      margin-left: 150px;
+      
+  }
+  .back_btn{
+    color: #2bc48a;
+    text-decoration: 0;
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    padding: 5px;
+    border: 1px solide #999;
+    outline: 0;
+    margin-top: 2px;
+}
+input:focus{
+    border: 1px solid #ffcb61;}
+input[type="submit"]{
+        margin-top: 25px;
+        background-color: #2bc48a;
+        border: 1px solid #2bc48a;
+        cursor: pointer;
+        color: #fff;
+        text-transform: uppercase;
+        
+}
+input[type="button"]{
+    margin-top: 2px;
+    background-color: #1e704f;
+    border: 3px solid #2bc48a;
+    cursor: pointer;
+    color: rgb(247, 244, 244);
+    text-transform: uppercase;
+    padding: 20px;
+    width: 350px;
+    border-radius: 6px;
+    
+}
+select{
+    padding: 5px;
+    border: 1px solide #999;
+    outline: 0;
+    margin-top: 2px;
+}
+.btn1{
+    width: fit-content;
+    margin-bottom: 20px;
+    background-color: blue;
+    padding: 5px 20px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius: 6px;
+    text-decoration: 0;
+}
+.back_btn{
+    color: #2bc48a;
+    text-decoration: 0;
+    display: flex;
+    align-items: center;
+}
